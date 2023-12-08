@@ -57,6 +57,8 @@ const onSubmit = handleSubmit(() => {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  border: 3px solid red;
+  margin: 0;
 }
 
 .inputFields {

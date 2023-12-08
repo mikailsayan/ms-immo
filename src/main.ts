@@ -10,10 +10,14 @@ import App from './App.vue'
 import router from './router'
 
 import InputNumber from 'primevue/inputnumber';
+import Dropdown from 'primevue/dropdown';
+import Button from 'primevue/button';
 
 const app = createApp(App)
 
 app.component('InputNumber', InputNumber)
+app.component('Dropdown', Dropdown)
+app.component('Button', Button)
 
 app.use(createPinia())
 app.use(router)

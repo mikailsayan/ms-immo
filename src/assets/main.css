@@ -20,10 +20,16 @@ body {
     display: flex;
     gap: 15px;
     flex-direction: column;
+    width: 500px;
 }
 
 p {
     line-height: 1.75;
+}
+
+label {
+    color: black;
+    margin-top: 15px;
 }
 
 .flex-auto {

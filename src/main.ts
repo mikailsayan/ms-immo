@@ -9,13 +9,11 @@ import 'primeicons/primeicons.css'
 import App from './App.vue'
 import router from './router'
 
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
+import InputNumber from 'primevue/inputnumber';
 
 const app = createApp(App)
 
-app.component('InputText', InputText)
-app.component('Button', Button)
+app.component('InputNumber', InputNumber)
 
 app.use(createPinia())
 app.use(router)
